@@ -3,6 +3,7 @@
 
     body {
         margin: 0 auto;
+        padding: 10px;
 
     }
 
@@ -10,9 +11,9 @@
         height: auto;
     }
 
-    .nav-bar {
+    /* .nav-bar {
         flex-direction: column;
-    }
+    }*/
 
     .banner {
         flex-direction: column;
@@ -22,6 +23,14 @@
         flex-direction: row;
         gap: 10px;
         height: auto;
+    } 
+    .nav-bar{
+        display: none;
+    }
+    .mobile-menubar{
+        display: flex;
+        justify-content: space-between;
+
     }
 
 
@@ -31,6 +40,7 @@
     /* habitSection*/
 
     .habit-container {
+        height: auto;
         display: grid;
         padding-bottom: 20px;
     }
@@ -110,6 +120,7 @@
 
     /* footer Section */
     .footer-first {
+        height: auto;
         display: grid;
         grid-template-columns: auto auto;
     }
@@ -131,8 +142,17 @@
         height: auto;
     }
 
-    .nav-bar {
+    /* .nav-bar {
         flex-direction: column;
+    } */
+    .nav-bar{
+        display: none;
+    }
+    .mobile-menubar{
+        display: flex;
+        justify-content: space-between;
+       
+
     }
 
     .banner {
