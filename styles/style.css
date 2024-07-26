@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+    font-family: Miama;
+    src: url("../font/Miama.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.794), rgb(5, 5, 5), rgb(5, 5, 5), rgb(5, 5, 5));
+    color: white;
+    margin: 50px 200px;
+    border: 2px solid red;
+}
+
+.header-container {
+    height: 751px;
+}
+
+/*common*/
+.btn-primary {
+    background-color: #E6533C;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 30px;
+    border-color: #0000;
+}
+
+.btn-secondary {
+    background-color: #ffffff00;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 30px;
+    border-color: #ffffff;
+}
+
+.primary-text {
+    font-size: 60px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.paragraph-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: lightgray
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: lightgray
+}
+
+/* header section */
+.header {
+    height: 715px;
+    /* background-image: linear-gradient(rgba(105, 105, 105, 0.325),rgba(5, 5, 5, 0.439));*/
+}
+
+/* navbar */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(101, 100, 100, 0.731);
+    border-radius: 20px;
+    overflow: hidden;
+
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 36px;
+    font-style: italic;
+    color: #E6533C;
+    border-color: #E6533C;
+
+
+}
+
+.nav-bar ul li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title h1 {
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+.banner-title span {
+    font-size: 80px;
+    font-weight: 400;
+    font-family: miama;
+    font-style: italic;
+}
+
+.banner-image {
+    position: relative;
+    width: 350px;
+    height: 580px;
+}
+
+.banner-title p {
+    padding-top: 35px;
+
+}
+
+.banner-button {
+    display: flex;
+    gap: 10px;
+    padding-top: 35px;
+}
+
+.btn-workout {
+    padding-top: 20px;
+    width: 200px;
+    height: 100px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.584);
+    /* background-image: linear-gradient(rgba(62, 61, 61, 0),rgba(28, 27, 27, 0.027));*/
+    border-radius: 16px;
+    position: relative;
+    top: -450px;
+    right: -200px;
+    color: #ffffff;
+    text-align: center;
+
+
+
+}
+
+.btn-workout h1 {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.btn-workout p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-tutorial {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.584);
+    /* background-image: linear-gradient(rgba(62, 61, 61, 0),rgba(28, 27, 27, 0.027)); */
+    border-radius: 16px;
+    position: relative;
+    bottom: 270px;
+    right: 150px;
+    color: #ffffff
+}
+
+.btn-tutorial h1 {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    border: none;
+}
+
+/* main part start */
+main {
+    padding-bottom: 50px;
+    /* margin: 50px 200px; */
+}
+
+/* --section habit --*/
+.habit-container {
+    /* padding-top: 100px; */
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.habit-text {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.image-container {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px;
+    text-align: center;
+
+}
+
+.habit-image img {
+    border-radius: 50%;
+    border: 4px solid rgba(43, 43, 43, 0.484);
+}
+
+.image-container h4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 10px;
+
+}
+
+/* section run extra */
+
+.Run-extra {
+    padding-top: 100px;
+    height: 550px;
+}
+
+.run-extra-container {
+    padding: 30px;
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    background-color: rgba(64, 64, 64, 0.349);
+    border-radius: 30px;
+    gap: 40px;
+}
+
+.extra-container-text h2 {
+    font-size: 65px;
+    padding-left: 30px;
+}
+
+.extra-container-text p {
+    font-size: 16px;
+    padding: 20px 20px 20px 30px;
+    word-spacing: 3px;
+}
+
+.extra-container-button {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.extra-container-image img {
+    height: 400px;
+    border-radius: 15px;
+    position: relative;
+    left: 80px;
+
+
+
+    /* height:400px;
+    width: auto;
+    background-image: url('../images/run.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 250px;
+     */
+}
+
+/* calculator */
+.calculator {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 400;
+
+}
+
+.calculator-text {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.calculator-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: rgba(64, 64, 64, 0.349);
+    padding: 50px;
+
+}
+
+.calculator-chart table {
+    border-collapse: collapse;
+
+}
+
+.calculator-chart caption {
+    padding-bottom: 30px;
+}
+
+.calculator-chart td,
+th {
+
+    border: 2px solid rgba(97, 96, 96, 0.419);
+    padding: 5px 10px;
+}
+
+.text-form {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 30px;
+
+}
+
+.calculator-bmi p {
+    padding-bottom: 30px;
+
+}
+
+.inputs-bmi {
+    padding-bottom: 5px;
+
+}
+
+.calculator-bmi-button {
+    padding-top: 30px;
+}
+
+input,
+select {
+    width: 200px;
+    height: 30px;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(108, 108, 108, 0.349);
+    cursor: pointer;
+    color: grey;
+}
+
+#b4 {
+    width: 405px;
+}
+
+/* Choose -plan */
+.our-plan {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(64, 64, 64, 0.349);
+}
+
+.plan-container {
+    padding-top: 100px;
+
+}
+
+.plan-tab {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* #tab1{
+    background-color: #E6533C;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border-radius:10px;
+    padding: 5px 30px;
+    border-color: #0000; 
+}  
+#tab2{
+    background-color: white;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E6533C;
+    border-radius: 10px;
+    padding: 5px 30px;
+    border-color: #0000;
+}   */
+.toggle-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 200px;
+    border: 1px solid rgba(224, 221, 221, 0.784);
+    border-radius: 25px;
+    background: #E6533C;
+    font-weight: bold;
+    color: #232222;
+    cursor: pointer;
+}
+
+.toggle-container::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0%;
+    border-radius:25px;
+    background: white;
+    transition: all 0.3s;
+}
+
+.toggle-checkbox:checked+.toggle-container::before {
+    left: 50%;
+}
+
+.toggle-container div {
+    padding: 6px;
+    text-align: center;
+    z-index: 1;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-checkbox:checked+.toggle-container div:first-child {
+    color: white;
+    transition: color 0.3s;
+}
+
+.toggle-checkbox:checked+.toggle-container div:last-child {
+    color: #232222;
+    transition: color 0.3s;
+}
+
+.toggle-checkbox+.toggle-container div:first-child {
+    color: #232222;
+    transition: color 0.3s;
+}
+
+.toggle-checkbox+.toggle-container div:last-child {
+    color: white;
+    transition: color 0.3s;
+}
+
+.monthly-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 50px 50px;
+    height: 600px;
+}
+
+.monthly-content h4 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.monthly-content ul {
+    padding-bottom: 10px;
+    font-weight: 600;
+
+
+}
+
+.monthly-content h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    background-color: #ffffff1c;
+}
+
+.Yearly-content {
+
+    display: none;
+    /* display: grid; */
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 50px 50px;
+    height: 600px;
+}
+
+.Yearly-content h4 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Yearly-content ul {
+    padding-bottom: 10px;
+    font-weight: 600;
+
+
+}
+
+.Yearly-content h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    background-color: #ffffff1c;
+}
+
+.discover {
+
+    background-color: rgba(128, 128, 128, 0.784);
+    border-radius: 16px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-discover {
+    background-color: #E6533C;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 30px;
+    border-color: #0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enterprise {
+
+    background-color: #E6533C;
+    border-radius: 16px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-enterprise {
+    background-color: white;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E6533C;
+    border-radius: 20px;
+    padding: 5px 30px;
+    border-color: #0000;
+}
+
+
+.professional {
+    background-color: rgba(128, 128, 128, 0.784);
+    border-radius: 16px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* meet-tea section */
+.meet-team {
+    margin: 0 auto;
+}
+
+.meet-team-container {
+    padding-top: 150px;
+}
+
+.team-text {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.team-picture {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(64, 64, 64, 0.349);
+    width: auto;
+    border-radius: 16px;
+    padding: 50px 30px 0px 30px;
+
+}
+
+.team-picture img {
+    border-radius: 16px;
+    width: 420px;
+}
+
+.meet-team h4 {
+    color: white;
+    position: relative;
+    top: -60px;
+    z-index: 1;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.meet-team h5 {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    top: -60px;
+    z-index: 1;
+    padding-left: 10px;
+    color: rgba(248, 245, 245, 0.828);
+
+}
+
+/* footer */
+
+.footer-container {
+    margin: 0 auto;
+    background-color: rgba(64, 64, 64, 0.349);
+    padding: 20px;
+}
+
+.footer-first {
+    /* margin: 50px 200px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footer-text {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 80px;
+    color: #E6533C;
+    cursor: pointer;
+}
+
+
+.fitness-middle h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+
+}
+
+.fitness-middle ul {
+    font-size: 25px;
+    padding-bottom: 20px;
+    cursor: pointer;
+
+}
+
+
+.fitness-right h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+
+}
+
+.fitness-right ul {
+    font-size: 25px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+hr {
+    border: 1.5px solid rgba(128, 128, 128, 0.596);
+}
+
+.footer-rights {
+    padding: 50px;
+    text-align: center;
+}

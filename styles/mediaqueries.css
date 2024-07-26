@@ -1,0 +1,235 @@
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+
+    body {
+        margin: 0 auto;
+
+    }
+
+    .header-container {
+        height: auto;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-button {
+        flex-direction: row;
+        gap: 10px;
+        height: auto;
+    }
+
+
+
+
+
+    /* habitSection*/
+
+    .habit-container {
+        display: grid;
+        padding-bottom: 20px;
+    }
+
+    .habit-text {
+        text-align: center;
+    }
+
+    .image-container {
+
+        display: flex;
+
+    }
+
+    /*Run-extra Section */
+    .Run-extra {
+        height: auto;
+    }
+
+    .run-extra-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .extra-container-image img {
+        height: 400px;
+        left: 20px;
+
+    }
+
+    /* calculator Section */
+
+    .calculator {
+        height: auto;
+    }
+
+    .calculator-container {
+        width: auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    input,
+    select {
+        width: auto;
+        height: auto;
+    }
+
+    #b4 {
+        width: auto;
+    }
+    /* Choose -plan */
+
+    .monthly-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height:auto;
+    }
+        
+
+    /* Team Section*/
+
+    .meet-team {
+        height: auto;
+    }
+
+    .team-picture {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: auto;
+    }
+
+    .meet-team img {
+        width: auto;
+    }
+
+
+    /* footer Section */
+    .footer-first {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+}
+
+
+
+/* Mobile device*/
+
+@media screen and (max-width: 576px) {
+
+    body {
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .header-container {
+        height: auto;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-button {
+        flex-direction: row;
+        gap: 10px;
+
+    }
+
+    .banner-button h4 {
+        font-size: 16px;
+    }
+
+
+    /*headerSection*/
+
+    .habit-container {
+        display: grid;
+
+    }
+
+    .image-container {
+
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /*Run-extra Section */
+
+    .Run-extra {
+        height: auto;
+    }
+
+    .run-extra-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .extra-container-image img {
+        height: 150px;
+        left: 20px
+    }
+
+    /* calculator Section */
+
+
+    .calculator {
+        height: auto;
+    }
+
+    .calculator-container {
+        width: auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    input,
+    select {
+        width: auto;
+        height: auto;
+    }
+
+    #b4 {
+        width: auto;
+    }
+
+    /* Choose -plan */
+
+    .monthly-content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height:auto;
+    }
+
+    /* Team Section */
+
+    .meet-team {
+        height: auto;
+    }
+
+    .team-picture {
+        display: grid;
+        grid-template-columns: auto;
+        width: auto;
+    }
+
+    .meet-team img {
+        width: auto;
+    }
+
+    /* footer Section*/
+    .footer-first {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+}
