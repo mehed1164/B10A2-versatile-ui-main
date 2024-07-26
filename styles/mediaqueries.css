@@ -1,9 +1,9 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
-
     body {
         margin: 0 auto;
-        padding: 10px;
+        padding: 10px 10px;
+
 
     }
 
@@ -16,18 +16,25 @@
     }*/
 
     .banner {
+        display: flex;
         flex-direction: column;
+
     }
 
     .banner-button {
         flex-direction: row;
         gap: 10px;
         height: auto;
-    } 
-    .nav-bar{
+    }
+
+    .banner-image{
+    
+        margin: 0 auto;}
+    .nav-bar {
         display: none;
     }
-    .mobile-menubar{
+
+    .mobile-menubar {
         display: flex;
         justify-content: space-between;
 
@@ -41,7 +48,8 @@
 
     .habit-container {
         height: auto;
-        display: grid;
+        display: grid; 
+        grid-template-columns: auto;
         padding-bottom: 20px;
     }
 
@@ -50,8 +58,9 @@
     }
 
     .image-container {
-
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto;
+        
 
     }
 
@@ -92,14 +101,15 @@
     #b4 {
         width: auto;
     }
+
     /* Choose -plan */
 
     .monthly-content {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        height:auto;
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
     }
-        
+
 
     /* Team Section*/
 
@@ -135,7 +145,7 @@
 
     body {
         margin: 0 auto;
-        padding: 10px;
+        padding: 10px 10px;
     }
 
     .header-container {
@@ -145,28 +155,40 @@
     /* .nav-bar {
         flex-direction: column;
     } */
-    .nav-bar{
+    .nav-bar {
         display: none;
     }
-    .mobile-menubar{
+
+    .mobile-menubar {
         display: flex;
         justify-content: space-between;
-       
+
 
     }
 
     .banner {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .banner-image{
+        margin: 0 auto;
     }
 
     .banner-button {
-        flex-direction: row;
+        display: flex;
         gap: 10px;
 
     }
 
     .banner-button h4 {
         font-size: 16px;
+    }
+    .btn-tutorial {
+        bottom: 230px;
+        right: -50px;
+        transform: translate(-50%,-50%);
     }
 
 
@@ -226,8 +248,8 @@
 
     .monthly-content {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-        height:auto;
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
     }
 
     /* Team Section */
