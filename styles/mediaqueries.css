@@ -2,18 +2,16 @@
 
     body {
         margin: 0 auto;
-        padding: 10px 10px;
+        padding: 10px;
 
 
     }
 
     .header-container {
+        margin: 30px;
         height: auto;
     }
 
-    /* .nav-bar {
-        flex-direction: column;
-    }*/
 
     .banner {
         display: flex;
@@ -47,8 +45,9 @@
     /* habitSection*/
 
     .habit-container {
+        margin: 20px;
         height: auto;
-        display: grid; 
+        display: grid;
         grid-template-columns: auto;
         padding-bottom: 20px;
     }
@@ -66,6 +65,7 @@
 
     /*Run-extra Section */
     .Run-extra {
+        margin: 20px;
         height: auto;
     }
 
@@ -92,6 +92,11 @@
         grid-template-columns: auto;
     }
 
+    .calculator-content {
+        margin: 20px;
+        display: grid;
+    }
+
     input,
     select {
         width: auto;
@@ -104,9 +109,14 @@
 
     /* Choose -plan */
 
+    .plan-container {
+        margin: 20px;
+    
+    }
+
     .monthly-content {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: auto auto;
         height: auto;
     }
 
@@ -115,6 +125,10 @@
 
     .meet-team {
         height: auto;
+    }
+
+    .meet-team-container {
+        margin: 20px;
     }
 
     .team-picture {
@@ -129,6 +143,11 @@
 
 
     /* footer Section */
+
+    .footer-container {
+        margin: 0 auto;
+        padding:20px;
+    }
     .footer-first {
         height: auto;
         display: grid;
@@ -218,7 +237,7 @@
 
     .run-extra-container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: auto;
     }
 
     .extra-container-image img {
@@ -237,11 +256,13 @@
         width: auto;
         display: grid;
         grid-template-columns: auto;
+        
     }
     .calculator-content {
         margin: 20px;
         display: grid;
-        grid-template-columns:1fr;
+        gap: 20px;
+        grid-template-columns:auto;
     }
 
 
@@ -249,6 +270,10 @@
     select {
         width: auto;
         height: auto;
+    }
+    
+    #b3 {
+        width: 300px;
     }
 
     #b4 {
@@ -264,7 +289,7 @@
 
     .monthly-content {
         display: grid;
-        grid-template-columns:1fr;
+        grid-template-columns:auto;
         height: auto;
     }
 
@@ -296,7 +321,7 @@
 
     .footer-first {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
         gap: 20px;
     } 
 
