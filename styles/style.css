@@ -16,7 +16,7 @@
 .btn-primary {
     background-color: #E6533C;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     border-radius: 20px;
     padding: 5px 30px;
@@ -26,7 +26,7 @@
 .btn-secondary {
     background-color: #ffffff00;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     border-radius: 20px;
     padding: 5px 30px;
@@ -261,9 +261,6 @@ nav li a {
 }
 
 /* main part start */
-main {
-    padding-bottom: 50px;
-}
 
 /* --section habit --*/
 .habit-container {
