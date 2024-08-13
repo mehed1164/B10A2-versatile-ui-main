@@ -550,7 +550,8 @@ select {
 
 .monthly-content ul {
     padding-bottom: 5px;
-    font-weight: 600;
+    font-weight: 300;
+    text-align:start;
 
 
 }
